@@ -2,7 +2,7 @@
   "name": "jest-another-rpg",
   "version": "1.0.0",
   "description": "An RPG game created with Node.js and Jest",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kaiafay/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/kaiafay/jest-another-RPG#readme"
+  "homepage": "https://github.com/kaiafay/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
