@@ -75,4 +75,4 @@ test('adds a potion to the inventory', () => {
 
     player.addPotion(new Potion());
     expect(player.inventory.length).toBeGreaterThan(oldCount);
-})
+});
