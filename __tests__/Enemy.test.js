@@ -4,7 +4,7 @@ const Potion = require('../lib/Potion.js');
 
 jest.mock('../lib/Potion.js');
 
-TestWatcher('crates an enemy object', () => {
+test('crates an enemy object', () => {
     const enemy = new Enemy('goblin', 'sword');
 
     expect(enemy.name).toBe('goblin');
