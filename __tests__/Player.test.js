@@ -16,7 +16,7 @@ test('creates a player object', () => {
 });
 
 test("gets player's stat's as an object", () => {
-    const Player = new Player('Dave');
+    const player = new Player('Dave');
 
     expect(player.getStats()).toHaveProperty('potions');
     expect(player.getStats()).toHaveProperty('health');
